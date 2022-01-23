@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --primary: rgb(50, 118, 124);
+  --secondary: rgb(253, 243, 243);
+}
+
+.navbar {
+  margin: 10px;
+  background-color:rgb(32, 76, 80);
+  color: var(--secondary);
+  font-size: 50px;
+}
+
+li {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.card-header {
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.card-body {
+  background-color: var(--secondary);
+  color: var(--primary);
+}
+
+.container {
+  margin: 100px auto;
+  justify-content: space-evenly;
+  display: flex;
+}
